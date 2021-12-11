@@ -1,0 +1,12 @@
+footer{
+    position: relative;
+    width:100%;
+    padding:40px 10vw;
+    padding-bottom: 80px;
+    background: rgb(245, 243, 243);
+}
+.footer-content{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
