@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles/from.css">
 </head>
 <body>
-    <div>
-        
-    </div>
+
+     <form name="contactForm" id="contactForm" method="post" action="">
+        <fieldset>
+
+            <div class="group">
+                <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+            </div>
+            <div>
+                <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+            </div>
+            <div>
+                <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" />
+            </div>
+            <div>
+                <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required></textarea>
+            </div>
+            <div>
+                <button class="submitform">Submit</button>
+                <div id="submit-loader">
+                    <!-- <div class="text-loader">Sending...</div> -->
+                    <div class="s-loader">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
 </body>
 </html>
