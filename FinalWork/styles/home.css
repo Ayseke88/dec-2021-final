@@ -1,0 +1,248 @@
+@import 'nav.css';
+@import 'footer.css';
+
+/* мои попытки сделать слайд шоу с кнопкой по середке */
+.mySlides {
+    display: none
+}
+img {
+    vertical-align: middle;
+    
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 70%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s ease-out;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 175, 175, 0.8);
+}
+/* Button*/
+.text {
+    border: none;
+    color: rgb(117, 79, 79);
+    padding: 15px 32px;
+    margin:auto;
+   top:300px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  cursor: pointer; 
+   background-color: white; 
+    border: 2px solid #eb9494;
+  }
+  
+  .text:hover {
+    background-color:  #eb9494;
+    color: white;
+  }
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(238, 225, 225);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #e2afaf;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+.dot{
+ height: 10px;
+  width: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 14px}
+}} 
+/* мои попытки сделать слайд шоу с кнопкой по середке закончены */
+
+
+/* products */
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+.product-container{
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior:smooth;
+}
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    flex:0 0 auto;
+    width:250px;
+    height: 450px;
+    margin-right: 40px;
+}
+.product-image{
+    position: relative;
+    width:100%;
+    height: 300px;
+    overflow: hidden;
+}
+.product-thumb{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.discount-tag{
+    position: absolute;
+    background: rgb(230, 160, 160);
+    padding: 5px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    right:10px;
+    top: 17px;
+    text-transform: capitalize;
+}
+.card-btn{
+    position: absolute;
+    bottom: 25px;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width:90px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background:rgb(236, 174, 174) ;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+}
+.product-card:hover .card-btn{
+    opacity: 1;
+}
+.card-btn:hover{
+    background: rgb(255, 210, 210);
+}
+.product-info{
+    width:100%;
+    height:100px;
+    padding-top:1px;
+    margin-left: 10px;
+    margin-top: 1px;
+    font-size: 13px;
+}
+.product-name{
+    text-transform:uppercase;
+}
+.product-short-des{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin:4x 0;
+}
+.price{
+  font-weight: 600;
+  font-size: 17px;
+}
+.actual-price{
+  margin-left: 20px;
+  opacity:0.5;
+  text-decoration:line-through;
+}
+.pre-btn, .nxt-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -50px;
+  margin-left: 50px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s ease-out;
+  border-radius: 3px 0 0 3px;
+  user-select: none;
+  background: rgb(245, 223, 223);
+  z-index: 8;
+}
+.nxt-btn {
+  right: 0;
+  margin-right: 50px;
+  border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.pre-btn:hover, .nxt-btn:hover {
+  background-color: rgba(241, 165, 165, 0.8);
+}
