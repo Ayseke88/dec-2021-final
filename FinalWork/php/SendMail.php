@@ -45,7 +45,7 @@ if($_POST) {
 
    if (!$error) {
 
-      ini_set("sendmail_from", $to); // for windows server
+      ini_set("sendmail_from", $to);
       $mail = mail($to, $subject, $message, $headers,"Content-type:text/plain; windows-1251");
 
 		if ($mail) { echo "OK"; }
