@@ -3,7 +3,7 @@ footer{
     width:100%;
     padding:40px 10vw;
     padding-bottom: 80px;
-    background: #eb9494;
+    background: rgb(241, 238, 238);
 }
 .footer-content{
     display:flex;
@@ -31,15 +31,15 @@ footer{
 .cat-title{
     grid-column: span 2;
     text-transform: capitalize;
-    color: #ffff;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin-bottom: 20px;
 }
 .category .f-link{
     text-decoration: none;
     text-transform: capitalize;
-    color: rgb(225, 225, 225, 0.7);
+    color: rgba(32, 32, 32, 0.7);
 }
 .f-link:hover{
-    color: #ffff;
+    color: rgb(0, 0, 0);
 }

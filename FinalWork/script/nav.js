@@ -13,10 +13,7 @@ const createNav=()=>{
     </div>
 </div>
 <ul class="links-container">
-    <li class="link-item"><a href="#" class="link">home</a></li>
-    <li class="link-item"><a href="#" class="link">rings</a></li>
-    <li class="link-item"><a href="#" class="link">earrings</a></li>
-    <li class="link-item"><a href="#" class="link">necklaces</a></li>
+    <li class="link-item"><a href="#" class="link">shopping</a></li>
     <li class="link-item"><a href="#" class="link">about us</a></li>
     <li class="link-item"><a href="#" class="link">news</a></li>
     <li class="link-item"><a href="#" class="link">services</a></li>
