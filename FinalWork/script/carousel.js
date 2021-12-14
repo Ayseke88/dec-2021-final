@@ -1,6 +1,8 @@
-$(document).ready(function () {
-    $(".owl-carousel").OwlCarousel({
-        items:1,
+$(function() {
+    // Owl Carousel
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+        items:2,
         loop:true,
         nav:true,
         dots:true,
@@ -8,6 +10,5 @@ $(document).ready(function () {
         autoplaySpeed:1000,
         smartSpeed:1500,
         autoplayHoverPause:true
-
     });
-});
+  });
