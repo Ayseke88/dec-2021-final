@@ -1,9 +1,42 @@
+.mainImg{
+    width: 100%;
+}
+.mnImg{
+    height: 200px;
+    width: 100%;
+    min-width: 375px;
+}
+
 .mntxt{
     background-color:rgb(197, 195, 195);
-    height: 10%;
+    height: 100px;
+    text-align: center;
 }
 
 .maintxt{
     font-family: 'roboto',sans-serif;
     font-size: 50px;
+}
+
+.info1{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.png1{
+    width: 650px;
+    height: 450px;
+}
+
+.txt1{
+    text-align: center;
+    width: 900px;
+    height: 450px;
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+.zag{
+
 }
