@@ -97,3 +97,47 @@ display:flex;
   transition-duration: 0.2s;
   text-decoration: underline;
 }
+
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(252, 193, 193);
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3a3833;
+}
+
+#homm span
+{
+    color:aqua;
+}
+
+#homm #ishin span {
+    color: orchid;
+    font-weight: bolder;
+}
+
+#homm
+{
+    background-image: url("/FinalWork/img/header4.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+
+}
+
+#change {
+    margin-left: 150px;
+}
+
