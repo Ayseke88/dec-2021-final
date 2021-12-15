@@ -269,4 +269,53 @@ button:hover{
     right: 1%;
 }
 
+.header {
+    padding: 10px;
+    text-align: center;
+    background: orchid;
+    font-size: 50px;
+}
+
+.leftside {
+    float:left;
+    width: 75%;
+
+}
+
+.rightside {
+    float: left;
+    width: 25%;
+    padding-left: 45px;
+}
+
+.someimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .leftside .rightside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+body {
+    font-family: Arial;
+    padding: 2%;
+    background: #f1f1f1;
+}
 
