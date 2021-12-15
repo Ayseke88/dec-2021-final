@@ -269,42 +269,4 @@ button:hover{
     right: 1%;
 }
 
-.single-recent-blog-post {
-    margin-bottom: 60px;
-}
-
-.single-recent-blog-post .picture {
-    position: relative;
-}
-
-.single-recent-blog-post .picture-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #fff;
-    width: 100%;
-    max-width: 415px;
-    padding-left: 5px;
-    margin-left: 50px
-}
-
-ul li {
-    display: inline;
-}
-
-
-
-.single-recent-blog-post .details {
-    padding-top: 30px;
-}
-
-.single-recent-blog-post .picture-info li a {
-    color:gray;
-    text-decoration: none;
-}
-
-
-.single-recent-blog-post p {
-    margin-bottom: 1.2rem;
-}
 
