@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'roboto',sans-serif;
 }
+body {
+    
+    
+    background: #fff;
+}
 
 .navbar{
     position:sticky;
@@ -313,9 +318,5 @@ button:hover{
     }
 }
 
-body {
-    font-family: Arial;
-    padding: 2%;
-    background: #f1f1f1;
-}
+
 
