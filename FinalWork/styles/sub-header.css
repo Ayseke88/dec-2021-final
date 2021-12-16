@@ -12,9 +12,12 @@
     text-align: center;
     color:white;
 }
-.sub-header2 h1{
-    font-size: 50px;
-    
+.title{
+    font-size: 47px;
+    padding-top: 200px;
+    text-transform: uppercase; 
+    color:transparent;
+    -webkit-text-stroke:1px white;
 }
 
 
