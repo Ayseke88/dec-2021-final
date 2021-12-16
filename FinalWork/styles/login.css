@@ -5,6 +5,8 @@
 
 body {
   color: #4d4d4d;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .img-box img {
@@ -92,6 +94,10 @@ section form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+}
+.user .form-box form .form-control input{
+  padding: 10px;
 }
 
 section form .form-control:first-child {
@@ -101,7 +107,7 @@ section form .form-control:first-child {
 section form .form-control:first-child input {
   
   border-radius: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid rgb(255, 169, 205);
   padding: 10px 0;
   margin-bottom: 10px;
   text-indent: 1px;
