@@ -2,12 +2,15 @@
     background-color: rgba(238, 227, 227, 0.479);
     padding: 30px,0;
 }
+/*Container*/
 .container{
     max-width:1170px;
     margin:auto;
     padding: 70px;
   
 }
+
+/*row where all elements stads*/
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +25,7 @@ ul{
     padding: 0 15px;
 
 }
+/*heading*/
 .footer-col h4{
     font-size: 20px;
     color: black;
@@ -45,6 +49,7 @@ ul{
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+/*Categories*/
 .footer-col ul li a{
     font-size: 16px;
     text-transform: capitalize;
