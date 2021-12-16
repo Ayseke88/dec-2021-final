@@ -9,7 +9,7 @@ const createNav=()=>{
             <button class="search-btn">Search</button>
         </div>
         <a href="#"><i class="bi bi-person-circle icon-large"></i></a>
-        <a href="#"><i class="bi bi-basket"></i></a>
+        <a href="./P-Det-htmls/cart.html"><i class="bi bi-basket"></i></a>
     </div>
 </div>
 <ul class="links-container">
