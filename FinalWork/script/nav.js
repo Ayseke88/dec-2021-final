@@ -8,8 +8,8 @@ const createNav=()=>{
             <input type="text" class="search-box" placeholder="search brand, product">
             <button class="search-btn">Search</button>
         </div>
-        <a href="#"><i class="bi bi-person-circle icon-large"></i></a>
-        <a href="#"><i class="bi bi-basket"></i></a>
+        <a href="./login.html"><i class="bi bi-person-circle icon-large"></i></a>
+        <a href="./P-Det-htmls/cart.html"><i class="bi bi-basket"></i></a>
     </div>
 </div>
 <ul class="links-container">

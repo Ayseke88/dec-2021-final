@@ -7,14 +7,14 @@
     <title>NewsPost</title>
 
     <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
-<body id="idishka">
-    
-    <div class="header">
-        <h1>Some text</h2>
-    </div>
+<body>
+
+    <nav class="navbar fixed-top"></nav>
+
+
+<section id="idishka">
 
     <div class="row">
 
@@ -33,18 +33,18 @@
 
             <div class="card">
                 <h3 style="text-align: center;">Recent Posts</h3>
-                <button type="button"> <-- prev</button>
+                <button type="button" id="btnAnim"><span id="spanLeft">prev </span></button>
                 <br>
-                <button type="button">next --></button>
+                <button type="button" id="btnAnim"><span id="spanRight">next </span></button>
 
             </div>
 
             <div id="guci" class="card">
-                <h3 style="text-align: center;">Brand Links</h3>
+                <h3>Brand Links</h3>
                 <img src="https://i.pinimg.com/474x/2d/eb/94/2deb94bbb114e9bb35d4d20ed147affd.jpg" alt="" style="width: 100%;">
-                <h1 style="text-align: center;">Gucci</h1>
-                <p style="text-align: center;" class="title">Italian luxury fashion brand</p>
-                <p style="text-align: center;">Florencia, Italia</p>
+                <h1>Gucci</h1>
+                <p class="title">Italian luxury fashion brand</p>
+                <p >Florencia, Italia</p>
                 <a href="#"><i class="fa fa-dribbble"></i></a> 
                 <p><button>Flip-Flap</button></p>
             </div>
@@ -52,7 +52,7 @@
         </div>
 
     </div>
-
+</section>
 
     <script src="script/nav.js"></script>
 
