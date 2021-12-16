@@ -1,0 +1,22 @@
+
+@import 'nav.css';
+@import 'footer.css';
+
+.sub-header2{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.408),rgba(0, 0, 0, 0.408)),url(../img/header2.jpg);
+    background-position-x: -20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+.sub-header2 h1{
+    font-size: 50px;
+    
+}
+
+
+
+
