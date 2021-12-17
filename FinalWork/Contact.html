@@ -17,6 +17,7 @@
     <link rel="stylesheet" href=".\styles\nav.css">
     <link rel="stylesheet" href=".\styles\home.css">
     <link rel="stylesheet" href="styles/from.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
     <title>Document</title>
 </head>
@@ -24,24 +25,32 @@
 
     <nav class="navbar"></nav>
 
+    <section class="sub-header2">
+        <div class="title" style="text-align: center;"><h1>Contact us</h1></div>   
+    </section>
+
+    <section>
     <div class="container">
+
+        <div class="img-box">
+        </div>
 
         <div class="row">
             <div class="col-sm-4">
                 <form action="mail.php" method="POST">
 
                     <div class="form-group">
-                        <label for="">Your name</label>
-                        <input type="text" class="form-control" id="" name="user_name" placeholder="Bob">
+                        <label for="" style="display: inline;">Your name</label>
+                        <input type="text" class="form-control" style="margin-left: 30px;" id="" name="user_name" placeholder="Bob">
                     </div>
                 
                     <div class="form-group">
-                        <label for="">Phone number</label>
+                        <label for="" style="display: inline;">Phone number</label>
                         <input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
                     </div>
                 
                     <div class="form-group">
-                        <label for="">Subject</label>
+                        <label for="" style="display: inline;">Subject</label>
                         <input type="text" class="form-control" id="" name="user_subject" placeholder="...">
                     </div>
 
@@ -50,12 +59,80 @@
                         <input type="text" class="form-control" id="" name="user_txt" placeholder="...">
                     </div>
                 
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <button type="submit" class="btn btn-primary" style="margin-top: 50px;">Send</button>
                 </form>
-            </div><!-- .col-sm-4 -->
-        </div> <!-- .row -->
-  
-      </div><!-- /.container -->
+            </div>
+        </div> 
+    </div>
+
+    </section>
+      <!----Footer  ------->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+           
+            <!--Each row-->
+            <!---SHOP--->
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Jewelry</a></li>
+                    <li><a href="#">Rings</a></li>
+                    <li><a href="#">Earrings</a></li>
+                    <li><a href="#">Necklaces</a></li>
+                    <li><a href="#">love</a></li>
+                </ul>
+            </div>
+
+            <!---SERVICE--->
+
+            <div class="footer-col">
+                <h4>Service</h4>
+                <ul>
+                    <li><a href="#">Quality</a></li>
+                    <li><a href="#">Perfection</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Speed</a></li>
+                    <li><a href="#">Promise</a></li>
+                </ul>
+            </div>
+
+            <!---INFO--->
+            
+            <div class="footer-col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Warranties</a></li>
+                    <li><a href="#">Cookie Settings</a></li>
+                </ul>
+            </div>
+
+            <!---FOLLOW US--->
+            
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class="social-l">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            
+
+            <!---End of rows--->
+        </div>
+    </div>
+</footer>
+    <script src="script/nav.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script/carousel.js"></script>
     <script src=".\script\nav.js" ></script>
 </body>
 </html>
