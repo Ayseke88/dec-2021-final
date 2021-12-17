@@ -35,11 +35,11 @@
 .container .card img{
     position: absolute;
     bottom:0;
-    left: 50%;
+    left: 55%;
     transform: translateX(-50%);
     height: 400px;
     transition: 0.5s;
-    border-radius: 18%;
+    border-radius: 0%;
     overflow: hidden;
 
 }
