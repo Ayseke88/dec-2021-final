@@ -13,17 +13,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     
 }
 .container .card{
     position: relative;
-    width: 600px;
-    height: 350px;
-    margin: 20px;
+    width: 900px;
+    height: 550px;
+    margin: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background: linear-gradient(45deg, #f88989,#ffbaba );
+    border-radius: 20%;
+    overflow: hidden;
 }
 .container .card img{
     position: absolute;
@@ -32,11 +35,13 @@
     transform: translateX(-50%);
     height: 400px;
     transition: 0.5s;
+    border-radius: 18%;
+    overflow: hidden;
 
 }
 .container .card:hover img{
-    left: 73%;
-    height: 500px;
+    left: 80%;
+    height: 400px;
 }
 .container .card .content{
     position: relative;
