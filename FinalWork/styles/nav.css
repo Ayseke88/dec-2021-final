@@ -42,6 +42,30 @@ body {
     margin-right: auto;
 }
 
+#try {
+    padding: 0 0;
+    margin: 0;    
+}
+
+@media (max-width: 1200px){
+    #try {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px){
+    #try {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px){
+    #try {
+        max-width: none;
+    }
+}
+
+
 .search{
 width: 500px;
 display:flex;
