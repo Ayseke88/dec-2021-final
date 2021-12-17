@@ -1,0 +1,39 @@
+body {
+    color: #4d4d4d;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    /* text-align: center;
+    align-items: center; */
+    display: flex; 
+    margin-left: 25%;
+}
+
+.img-box{
+    /* background-color: black; */
+    background-image: url('https://cdn.shopify.com/s/files/1/0259/4488/3252/products/Jane2_2000x.jpg?v=1622134324');
+        background-size: cover;
+    width: 35%; 
+    z-index: 2;
+    
+}
+
+
+
+.form-group{
+    font-size: 25px;
+    margin-left: 2%;
+    padding: 5%;
+
+}
+
+.col-sm-4{
+    margin-top: 3%;
+}
+
+.row1{
+	background: rgb(218, 214, 214);
+    background-size: 500px 500px;    
+}
