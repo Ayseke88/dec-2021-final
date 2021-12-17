@@ -320,7 +320,7 @@ hr {
     right: 1%;
 }
 
-
+/* news post */
 .leftside {
     float:left;
     width: 75%;
@@ -334,18 +334,31 @@ hr {
 }
 
 .someimg {
-    background-color: #aaa;
+    background:url();
     width: 100%;
     padding: 20px;
 }
 
 .card {
     background-color: white;
-    padding: 25px;
+    padding: 50px;
     margin-top: 40px;
     
 }
-
+.card h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.card h5{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+.card p{
+    text-transform:lowercase;
+    margin-top: 25px;
+}
 .row::after {
     content: "";
     display: table;
