@@ -79,13 +79,16 @@
   }
   
   .product-detail .form .addCart {
-    background: rgb(255, 192, 192);
+    background: rgb(248, 153, 153);
     padding: 15px 40px;
     color: rgb(255, 255, 255);
     border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
   }
   .product-detail .form .addCart:hover{
-      background: rgb(255, 207, 207);
+      background: rgb(253, 190, 190);
   }
   
   .product-detail h3 {
@@ -93,6 +96,7 @@
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
+    
   }
   .product-detail p{
       line-height: 1.5;
