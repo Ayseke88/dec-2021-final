@@ -17,7 +17,7 @@ const createNav=()=>{
     <li class="link-item"><a href="./aboutUs.html" class="link">about us</a></li>
     <li class="link-item"><a href="./newsPage.html" class="link">news</a></li>
     <li class="link-item"><a href="#" class="link">services</a></li>
-    <li class="link-item"><a href="#" class="link">contact us</a></li>
+    <li class="link-item"><a href="./Contact.html" class="link">contact us</a></li>
     
 </ul>`; 
 }
