@@ -4,14 +4,16 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.form-group{
+.form-group {
     font-size: 25px;
     padding: 3%;
 }
 
-.row1{
-	background: rgb(218, 214, 214);
-    background-size: 500px 500px; 
+.row1 {
+    background: rgb(218, 214, 214);
+    background-size: 500px 500px;
     width: 40%;
     height: 30%;
+    margin-left: 35%;
+    margin-top: -37.5%;
 }
