@@ -551,37 +551,40 @@ hr {
     }
 }
 @media (max-width: 534px){
-    .toggle-button{
-        display: flex;
-    }
-    .cla{
+    .cla {
         flex-direction: column;
         align-items: flex-start;
-        height: 50px;
         
-    } 
-    .links-container{
-        height: 100%;
     }
-    .links-container ul{
-        flex-direction: column;
-        width: 100%;
-       
 
-    }
-    .links-container li{
-        text-align: center;
-    }
-    .links-container a{
-        padding: .5rem 1rem;
-    }
-    .links-container.active{
+    .toggle-button {
         display: flex;
     }
 
-    .link-item{
+    .links-container {
         display: none;
-    } 
+        width: 100%;
+        height: 100%;
+    }
+
+    .links-container ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links-container ul li {
+        text-align: center;
+    }
+
+    .links-container ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .links-container.active {
+        display: flex;
+    }
+
+    
 
 
 }
