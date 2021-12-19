@@ -10,6 +10,9 @@ body {
     
     background: #fff;
 }
+.cla{
+    background-color: #fff;
+}
 
 .navbar{
     position:sticky;
@@ -535,6 +538,7 @@ hr {
     height: 21px;
     display: none;
     position: fixed;
+    margin-left: .2em;
 }
 .toggle-button .bar{
     height: 5px;
