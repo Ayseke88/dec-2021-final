@@ -123,6 +123,8 @@ display:flex;
 .links-container ul li a{
     display: block;
     padding: 0.5rem;
+    font-weight: 600;
+    color: rgb(165, 65, 82);
     
 }
 .link{
