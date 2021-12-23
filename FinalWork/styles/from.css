@@ -1,27 +1,27 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-.mntxt{
+.mntxt {
     margin-top: 2%;
     font-size: 30px;
     /* text-align: center; */
 }
 
-.info1{
+.info1 {
     margin-top: 7%;
     margin-left: 15%;
     display: flex;
 }
 
-.png1{
+.png1 {
     width: 100%;
     height: 100%;
     margin-left: 10%;
 }
 
-.txt1{
+.txt1 {
     text-align: center;
     height: 550px;
     width: 450px;
@@ -30,40 +30,38 @@ body{
     font-size: 20px;
 }
 
-/* @media (max-width: 375px){
-    .info1{
+
+/*@media screen and (max-device-width: 480px) {
+    .info1 {
         margin-left: 10px;
         display: flex;
     }
-
-    .png1{
-        width: 250px;
-        height: 150px;
+    .png1 {
+        width: 30%;
+        height: 40%;
     }
-
-    .txt1{
+    .txt1 {
         text-align: center;
         height: 250px;
         margin-left: 10px;
         font-size: 10px;
     }
+}*/
 
-} */
-
-.info2{
+.info2 {
     display: flex;
     margin-top: 5%;
     margin-left: 20%;
 }
 
-.png2{
+.png2 {
     width: 550px;
     margin-left: 10%;
     margin-top: 2%;
     height: 350px;
 }
 
-.txt2{
+.txt2 {
     text-align: center;
     height: 550px;
     width: 450px;
@@ -72,13 +70,13 @@ body{
     font-size: 20px;
 }
 
-.info3{
+.info3 {
     display: flex;
     margin-top: 5%;
     margin-left: 20%;
 }
 
-.txt3{
+.txt3 {
     text-align: center;
     height: 550px;
     width: 450px;
@@ -87,7 +85,7 @@ body{
     font-size: 20px;
 }
 
-.png3{
+.png3 {
     width: 550px;
     margin-left: 5%;
     height: 350px;
