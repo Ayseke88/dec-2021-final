@@ -67,6 +67,7 @@
     text-align: center;
     color:white;
     margin-top: 60px;
+    
 }
 .headerRing{
     height: 50vh;
@@ -77,6 +78,7 @@
     text-align: center;
     color:white;
     margin-top: 60px;
+    
 }
 @keyframes back{
     100%{
