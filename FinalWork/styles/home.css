@@ -260,3 +260,9 @@
 .pre-btn:hover, .nxt-btn:hover {
   background-color: rgba(241, 165, 165, 0.8);
 }
+
+@media (max-width: 1249px){
+  .slideshow-container img{
+    height: auto;
+  }
+}

@@ -91,6 +91,38 @@
    margin-bottom: 35px;
 }
 
+@media (max-width: 600px){
+    .title{
+        padding-left: 3%;
+        padding-right: 3%;
+
+    }
+    .headerM{
+        background-position: center center;
+    }
+
+}
+@media (max-width: 572px){
+    .title{
+        padding: auto;
+        font-size: 50px;
+        -webkit-text-stroke: 1.5px white;
+
+    }
+
+}
+@media (max-width: 362px){
+    .title{
+        padding: auto;
+        font-size: 40px;
+        -webkit-text-stroke: 1.2px white;
+
+    }
+    .headerM{
+        background-position: center center;
+    }
+    
+}
 
 
 
