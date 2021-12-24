@@ -121,10 +121,14 @@
     .product-detail .right {
       margin-top: 1rem;
     }
-  
+    
     .product-detail .left {
       width: 100%;
       height: 45rem;
+    }
+    .product-detail .left .main img {
+      height: 100%;
+      width: 100%;
     }
   
     .product-detail .details {
