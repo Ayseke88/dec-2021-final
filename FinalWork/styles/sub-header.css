@@ -72,13 +72,13 @@
 .headerRing{
     height: 50vh;
     width:100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.458)),url(../img/toMain2.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.458),rgba(0, 0, 0, 0.458)),url(../img/toMain33JPG.png);
     background-position-y: 500px;
     background-size: cover;
     text-align: center;
     color:white;
     margin-top: 60px;
-    
+    background-repeat: initial;
 }
 @keyframes back{
     100%{
