@@ -539,7 +539,7 @@ hr {
     width: 30px;
     height: 21px;
     display: none;
-    position: fixed;
+    
     margin-left: .2em;
 }
 .toggle-button .bar{
