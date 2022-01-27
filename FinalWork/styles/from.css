@@ -6,47 +6,66 @@ body {
 .mntxt {
     margin-top: 2%;
     font-size: 30px;
-    /* text-align: center; */
+}
+.mntxt hr{
+    margin:auto; 
+    margin-top: 15px; 
+    margin-bottom: 10px; 
+    width: 20%;
+}
+.mntxt p{
+    font-weight: 500;
 }
 
 .info1 {
-    margin-top: 7%;
-    margin-left: 15%;
+    padding-top: 5rem;
     display: flex;
+    
 }
 
 .png1 {
-    width: 100%;
-    height: 100%;
-    margin-left: 10%;
+    width: 50%; 
+    height: 45%;
+    
+}
+
+.png1 img{
+    width: 27rem;
+    height: 27rem;
 }
 
 .txt1 {
     text-align: center;
-    height: 550px;
-    width: 450px;
-    margin-left: 15%;
-    margin-right: 10%;
+    height: 25rem;
+    width: 30rem;
     font-size: 20px;
+    margin-left: 4rem;
+}
+.txt1 h1 
+{
+   font-size: 4rem;
+   padding: 1rem; 
+}
+.txt1 p{
+    font-size: 1.6rem;
+}
+.info1 .png1 {
+    margin-top: 3rem;
+    height: 30rem;
+}
+.info1 .txt1 {
+    margin-top: 3rem;
 }
 
+.bgfr{
+    background-color: rgb(248, 244, 244);
+    width: 100%;
+}
 
-/*@media screen and (max-device-width: 480px) {
-    .info1 {
-        margin-left: 10px;
-        display: flex;
-    }
-    .png1 {
-        width: 30%;
-        height: 40%;
-    }
-    .txt1 {
-        text-align: center;
-        height: 250px;
-        margin-left: 10px;
-        font-size: 10px;
-    }
-}*/
+.cont-t{
+    margin-top: 3%;
+}
+
 
 .info2 {
     display: flex;
@@ -54,11 +73,23 @@ body {
     margin-left: 20%;
 }
 
+.zag2{
+    margin-top: 60px;
+    margin-left: -400px;
+}
+
 .png2 {
     width: 550px;
     margin-left: 10%;
     margin-top: 2%;
     height: 350px;
+
+}
+.png2 img{
+    width: 400px; 
+    height: 450px; 
+    margin-top: 45px;
+    margin-left: -200px;
 }
 
 .txt2 {
@@ -69,24 +100,54 @@ body {
     margin-right: 10%;
     font-size: 20px;
 }
+.txt2 .con-1{
+
+    margin-top: 40px;
+    margin-left: -150px; 
+    margin-right: 200px;
+
+}
+
+.txt2 .con-2{
+    margin-top: 40px;
+    margin-left: -150px; 
+    margin-right: 200px;
+}
 
 .info3 {
     display: flex;
     margin-top: 5%;
-    margin-left: 20%;
+    justify-content: center;
+    
 }
 
 .txt3 {
     text-align: center;
     height: 550px;
     width: 450px;
-    margin-left: 15%;
-    margin-right: 10%;
-    font-size: 20px;
+    padding-left: 1rem;
+    margin: 3rem;
+    
+}
+.txt3 p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 .png3 {
-    width: 550px;
-    margin-left: 5%;
-    height: 350px;
+    margin-left: 5%; 
+}
+
+.png3 img{
+    width: 640px; 
+    height: 450px; 
+    
+}
+.txt3 h1{
+    font-size: 2.5rem;
+}
+.cardP{
+    text-align: center; 
+    font-size: 40px; 
+    margin-bottom: -40px;
 }

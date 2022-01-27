@@ -27,34 +27,34 @@
 
 /*Cards which contains 2 divs*/
 
-.container .card {
+.container .cards {
     position: relative;
-    width: 420px;
-    height: 650px;
+    width: 460px;
+    height: 460px;
     margin: 40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background: linear-gradient(45deg, #f88989, #ffbaba);
-    border-radius: 10%;
+    border-radius: 6%;
     overflow: hidden;
 }
 
 
 /*img moving*/
 
-.container .card img {
+.container .cards img {
     position: absolute;
     bottom: 0;
-    left: 55%;
+    left: 40%;
     transform: translateX(-50%);
     height: 400px;
     transition: 0.5s;
-    border-radius: 0%;
+    border-radius: 70%;
     overflow: hidden;
 }
 
-.container .card:hover img {
+.container .cards:hover img {
     left: 80%;
     height: 400px;
 }
@@ -62,40 +62,53 @@
 
 /*Making text dissapper and appear*/
 
-.container .card .content {
+.container .cards .content {
     position: relative;
     width: 50%;
     left: 20%;
-    padding: 20px 20px 20px 40px;
+    padding: 10px 10px 10px 10px;
     opacity: 0;
     visibility: hidden;
     transition: 0.5s;
 }
 
-.container .card:hover .content {
+.container .cards:hover .content {
     left: 0;
     opacity: 1;
     visibility: visible;
 }
 
-.container .card .content h2 {
+.container .cards .content h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 2.2em;
     line-height: 1em;
 }
 
-.container .card .content p {
+.container .cards .content p {
     color: #fff;
 }
 
-.container .card .content a {
+.container .cards .content a {
     color: #000;
     background: #fff;
     position: relative;
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    text-decoration: none;
+    text-decoration-style: none;
     font-weight: 700;
+    text-transform: initial;
+}
+
+@media (max-width: 1020px){
+    .bod{
+        display: block;
+        
+    }
+    .container{
+        display: block;
+        
+    }
+    
 }
